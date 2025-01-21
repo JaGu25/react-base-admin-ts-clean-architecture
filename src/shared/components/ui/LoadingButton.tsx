@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils"; // Si usas la utilidad `cn` para concatenar clases opcionalmente.
+import { cn } from "@/shared/lib/utils"; // Si usas la utilidad `cn` para concatenar clases opcionalmente.
 import { Button } from "@/shared/components/shadcn/button";
 import { Loader2 } from "lucide-react"; // Ícono de carga (puedes usar cualquier otro).
 

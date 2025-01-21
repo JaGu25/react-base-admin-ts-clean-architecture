@@ -1,7 +1,7 @@
 import { LoginResponse } from "@/app/auth/domain/login";
 import { RegisterRequest } from "@/app/auth/domain/register";
 import { User } from "@/app/auth/domain/user";
-import { api } from "@/lib/api";
+import { api } from "@/shared/lib/api";
 import { AxiosError } from "axios";
 
 export class AuthService {

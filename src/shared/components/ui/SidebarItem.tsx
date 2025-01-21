@@ -1,5 +1,5 @@
 "use client";
-import { cn } from "@/lib/utils";
+import { cn } from "@/shared/lib/utils";
 import { LucideIcon } from "lucide-react";
 import React from "react";
 import { Link, useLocation } from "react-router";

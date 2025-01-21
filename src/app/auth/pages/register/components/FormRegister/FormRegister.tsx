@@ -22,7 +22,7 @@ import { useError } from "@/shared/providers/ErrorProvider";
 import { handleError } from "@/shared/utils/handle-error";
 import { AxiosError } from "axios";
 import { formRegisterSchema } from "@/app/auth/pages/register/components/FormRegister/schema";
-import { toast } from "@/hooks/use-toast";
+import { toast } from "@/shared/hooks/use-toast";
 import { Button } from "@/shared/components/shadcn/button";
 import { useNavigate } from "react-router";
 
